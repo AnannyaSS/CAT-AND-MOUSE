@@ -57,6 +57,7 @@ function keyPressed(){
         cat.changeAnimation("catRunning");
         
         mouse.addAnimation("mouseTeasing", mouseImg2);
+        frameDelay = 25;
         mouse.changeAnimation("mouseTeasing");
 
 
